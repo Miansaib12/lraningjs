@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Added padding to avoid content touching edges */
+    gap: 10px; /* Added gap between flex items */
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(png-transparent-amazon-dark-hd-logo-thumbnail.png);
+    background-size: cover;
+    height: 100%; /* Ensures logo fills the container */
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Box 2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+
+.nav-search {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    gap: 5px; /* Added gap between select input and search icon */
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    flex-grow: 1; /* Allow input to take up remaining space */
+    font-size: 1rem;
+    border: none;
+    padding: 0 10px; /* Added padding inside input */
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.5rem; /* Adjusted size to fit better */
+}
+
+/* Box 4 */
+
+.nav-Signin,
+.nav-Return {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer; /* Added cursor for clickable items */
+    margin-left: 20px; /* Space between items */
+}
+
+.nav-Signin {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700; /* Corrected font weight */
+}
+
+/* Box 5 */
+
+.nav-Return {
+    font-size: 0.7rem;
+}
